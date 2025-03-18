@@ -7,7 +7,7 @@ pipeline {
             steps {
                 script {
                     echo 'Building the project...'
-                    sh 'g++ -o PES1UG22CS504-1 main.cpp' 
+                    sh 'g++ -o PES1UG22CS504-1 WRONG.cpp' 
                 }
             }
         }
